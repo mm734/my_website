@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Dropdown</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>New Order</h1>
+
+        <!-- Category Dropdown -->
+        <label for="category">Category:</label>
+        <select id="category" onchange="updateServices()">
+            <option value="">Select Category</option>
+            <option value="newServices">New Services</option>
+            <option value="popularServices">Popular Services</option>
+        </select>
+
+        <!-- Service Dropdown -->
+        <label for="service">Service:</label>
+        <select id="service" onchange="updateDetails()">
+        <select id="service">
+            <option value="">Select Service</option>
+        </select>
+
+        <div id="detailBox" class="detail-box">
+        <!-- Details will be populated here -->
+        </div>
+
+        <button type="button" onclick="buyService()">Buy Service</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>@ shotout_of_gujarat</p>
+</footer>
+</html>
