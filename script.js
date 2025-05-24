@@ -2,6 +2,7 @@ const services = {
     newServices: [
         { id: "5021", name: "Instagram VIEWS + REELS + IGTV" },
         { id: "5022", name: "Facebook Likes" },
+        { id: "5022", name: "Post LIKES" },
     ],
     popularServices: [
         { id: "5023", name: "Twitter Followers" },
