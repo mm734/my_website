@@ -1,6 +1,17 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #1a1a2e;
+    /* background-color: #1a1a2e; */
+    background: linear-gradient(135deg, #1a1a2e 60%, #ee135c 100%);
+    color: #fff;
+    min-height: 100vh;
 }
 /* .container {
     background-color: #1a1a2e;
@@ -8,12 +19,21 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-right: 25px; } */
-*{
+/* *{
     background-color: #1a1a2e;
+} */
+.container {
+    margin-left: 240px;
+    padding: 40px;
+    max-width: 700px;
 }
-.container{
-    margin-left: 10px;
+@media (max-width: 900px) {
+    .container {
+    margin-left: 0;
+    padding: 20px 8px;
+    }
 }
+
 h1 {
     color: #fffbfb;
 }
@@ -22,15 +42,23 @@ label {
     display: block;
     margin-top: 10px;
     color: #fffbfb;
+    font: 500;
 }
 
 select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
-    color: #fffbfb;
+    color: #140202;
+    border-radius: 6px;
+    border: 1px solid #444;
+    font-size: 1rem;
+    margin-bottom: 12px;
 }
-
+select:focus,
+input:focus{
+    outline: 2px solid #ee135c;
+}
 button {
     margin-top: 10px;
     padding: 10px;
@@ -62,8 +90,24 @@ footer {
     bottom: 0;                   /* Bottom of the page */
     width: 100%;                 /* Full width */
 }
-footer p{
-    background-color: #686891;
+footer {
+    background: #23234a;
+    height: 52px;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    z-index: 100;
+    font-size: 1rem;
+}
+@media (max-width: 900px) {
+    footer {
+    position: static;
+    padding: 12px 0;
+    }
 }
 body {
     font-family: Arial, sans-serif;
@@ -72,31 +116,41 @@ body {
     padding: 0;
 }
 .navbar {
-    width: 200px;
-    background-color: #1a1a2e;
-    padding: 20px;
-    color: white;
-    position: fixed; /* Fix navbar on the side */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scrolling if needed */
+    width: 220px;
+    background: #23234a;
+    padding: 24px 16px;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.08);
+    z-index: 200;
+    transition: left 0.3s;
+}
+.closebtn{
+    display: none;
 }
 .section {
     margin-bottom: 20px;
 }
 .button {
     display: block;
-    padding: 10px;
-    border-radius: 8px;
+    width: 100%;
+    padding: 10px, 0;
+    border-radius: 8px, 0;
     margin: 5px 0;
     text-align: center;
     text-decoration: none;
     color: white;
     font-weight: bold;
     transition: background-color 0.3s, box-shadow 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 .button:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 .new-order {
     background-color: #007BFF; /* Blue */
@@ -109,36 +163,222 @@ body {
     padding: 30px;
 }
 .detail-box {
-    margin-top: 20px;
-    background-color: #1a1a2e;
-    color: #ccc;
+    border: 1px solid #333;
+    padding: 18px;
+    margin-top: 18px;
+    background-color: #23234a;
+    color: #ecf0f1;
+    border-radius: 8px;
+    min-height: 80px;
+    font-size: 1.05rem;
 }
 .navbar-logo {
-    height: 60px; /* Adjust height */
-    margin-right: 15px; /* Space between logo and nav items */
-    border-radius: 100px;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #75384c;
 }
+
 .logo-container{
     display: flex;
     justify-content: center; /* Centers the logo horizontally */
     align-items: center;    /* Centers the logo vertically */
+    margin-bottom: 28px;
 }
 .announcement-bar {
     display: flex;
     align-items: center;
-    background-color: #1a1a2e; /* Darker Shade */
-    padding: 10px;
+    padding: 14px, 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    font-size: 1rem;
+    overflow: auto;
     padding-left: 280px;
     padding-top: 40px;
-    color: white
+    color: #fff
 }
 .announcement-label {
     background-color: #ee135c; /* Orange Button */
     border-radius: 15px;
     padding: 5px 15px;
     margin-right: 25px;
+    font-weight: bold;
 }
 .announcement-text {
     white-space: nowrap;
     color: #ecf0f1; /* Lighter Text Color */
+}
+.button, .detail-box, .navbar, .announcement-bar {
+    transition: all 0.2s ease;
+}
+
+
+
+/* Hamburger Icon Styling */
+.menu-icon {
+    display: none;
+    font-size: 2.5rem;
+    color: #fff;
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    z-index: 300;
+    cursor: pointer;
+    background: #23234a;
+    border-radius: 8px;
+    padding: 6px 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: background 0.2s;
+}
+.menu-icon:hover {
+    background: #ee135c;
+}
+
+/* Responsive Sidebar (Slider) */
+@media (max-width: 900px) {
+    .menu-icon {
+        display: block;
+    }
+    .navbar {
+        left: -240px;
+        width: 220px;
+        transition: left 0.3s;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: 250;
+    }
+    .navbar.active {
+        left: 0;
+    }
+    .closebtn {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 24px;
+        font-size: 36px;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 260;
+    }
+    .container {
+        margin-left: 0 !important;
+        padding: 16px;
+    }
+}
+
+.welcome-box {
+    position: relative;
+    margin: 0;
+    margin-left: 250px;
+    max-width: 900px;
+    background: #20203a;
+    border-radius: 22px;
+    box-shadow: 0 6px 24px rgba(30,30,60,0.18);
+    overflow: hidden;
+    z-index: 10;
+    min-height: 230px
+}
+
+.welcome-bg-icons {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+.icon-heart {
+    position: absolute;
+    top: 24px; left: 28px;
+    width: 38px; height: 38px;
+    opacity: 0.20;
+}
+.icon-bubble {
+    position: absolute;
+    bottom: 24px; right: 38px;
+    width: 48px; height: 48px;
+    opacity: 0.18;
+}
+/* Add more icons with similar style if desired */
+
+.welcome-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 32px 36px;
+    gap: 36px;
+}
+
+.welcome-character {
+    flex: 0 0 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-text {
+    flex: 1 1 0;
+    color: #fff;
+    text-align: left;
+}
+
+.welcome-text h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.brand-name {
+    color: #7fc7ff;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.welcome-text p {
+    font-size: 1.05rem;
+    color: #cfd7e6;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
+
+.explore-btn {
+    background: #007BFF;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    cursor: pointer;
+    transition: background 0.18s;
+}
+.explore-btn:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 900px) {
+    .welcome-box {
+        flex-direction: column;
+        padding: 12px 0;
+    }
+    .welcome-content {
+        flex-direction: column;
+        gap: 18px;
+        padding: 24px 10px;
+    }
+    .welcome-character {
+        margin-bottom: 10px;
+    }
+    .welcome-text {
+        text-align: center;
+    }
+}
+
+.main-container, .main-flex, .container {
+    padding-bottom: 54px; /* Make sure this is >= footer height */
 }

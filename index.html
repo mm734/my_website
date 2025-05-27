@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-        <title>Navigation Bar</title>
-</head>
-<body>
-    <div class="navbar">
+    <title>Navigation Bar</title>
+    <span class="menu-icon" id="menuIcon">&#9776;</span>
+    <div class="navbar" id="sidebar">
+        <span class="closebtn" id="closeBtn">&times;</span>
         <div class="logo-container">
             <img src="Logo.jpg" alt="Logo" class="navbar-logo">
         </div>
@@ -42,9 +42,56 @@
             INSTAGRAM FOLLOWERS UPDATE - Disable the [FLAG FOR REVIEW] Option before Ordering Followers or Followers won't come. In this case, No guarantee.
         </marquee>
     </div>
+
+<!-- Welcome Message Box -->
+<div class="welcome-box">
+  <div class="welcome-bg-icons">
+    <!-- Decorative SVG icons for background -->
+    <svg class="icon-heart" viewBox="0 0 24 24"><path fill="#ee135c" d="M12 21s-7.5-6.2-7.5-11.1C4.5 6.1 7.4 3 12 7.2 16.6 3 19.5 6.1 19.5 9.9 19.5 14.8 12 21 12 21z"/></svg>
+    <svg class="icon-bubble" viewBox="0 0 24 24"><path fill="#007BFF" d="M21 6.5a2.5 2.5 0 0 0-2.5-2.5H5.5A2.5 2.5 0 0 0 3 6.5v7A2.5 2.5 0 0 0 5.5 16H7v3l4-3h7.5A2.5 2.5 0 0 0 21 13.5v-7z"/></svg>
+    <!-- Add more SVGs as desired -->
+  </div>
+  <div class="welcome-content">
+    <div class="welcome-character">
+      <!-- Character illustration (SVG) -->
+      <svg width="120" height="140" viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Face -->
+        <ellipse cx="60" cy="60" rx="35" ry="40" fill="#2e2e4a"/>
+        <!-- Hair -->
+        <ellipse cx="60" cy="55" rx="38" ry="45" fill="#181825"/>
+        <!-- Smile -->
+        <path d="M50 80 Q60 90 70 80" stroke="#fff" stroke-width="3" fill="none"/>
+        <!-- Eyes -->
+        <ellipse cx="50" cy="60" rx="4" ry="7" fill="#fff"/>
+        <ellipse cx="70" cy="60" rx="4" ry="7" fill="#fff"/>
+        <ellipse cx="50" cy="62" rx="2" ry="3" fill="#23234a"/>
+        <ellipse cx="70" cy="62" rx="2" ry="3" fill="#23234a"/>
+        <!-- Hoodie -->
+        <ellipse cx="60" cy="110" rx="38" ry="25" fill="#7fc7ff"/>
+        <rect x="42" y="100" width="36" height="24" rx="12" fill="#7fc7ff"/>
+        <!-- Hand with phone -->
+        <ellipse cx="90" cy="110" rx="8" ry="12" fill="#2e2e4a"/>
+        <rect x="85" y="112" width="10" height="18" rx="4" fill="#23234a"/>
+        <rect x="89" y="115" width="3" height="10" rx="1.5" fill="#fff"/>
+      </svg>
+    </div>
+    <div class="welcome-text">
+      <h2>Welcome to <span class="brand-name">smm social media</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. 
+        Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
+        amet at magna. Etiam placerat facilisis mollis. Duis sagittis ligula in sodales vehicula.
+      </p>
+      <button class="explore-btn" onclick="navigateTo('services')">Explore Services</button>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="main-container">
     <div class="container">
         <h1>Our Services</h1>
-
         <!-- Category Dropdown -->
         <label for="category">Category:</label>
         <select id="category" onchange="updateServices()">
@@ -56,8 +103,7 @@
         <!-- Service Dropdown -->
         <label for="service">Service:</label>
         <select id="service" onchange="updateDetails()">
-            <select id="service">
-            <option value=""></option>
+            <option value="">Select Service</option>
         </select>
 
         <div id="detailBox" class="detail-box">
@@ -66,6 +112,10 @@
 
         <button type="button" onclick="buyService()">Buy Service</button>
     </div>
+    <div class="container1">
+
+    </div>
+</div>
 
     <script src="script.js"></script>
 </body>
