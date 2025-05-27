@@ -126,8 +126,19 @@ document.addEventListener('DOMContentLoaded', function()
     const closeBtn = document.getElementById('closeBtn')
     menuIcon.addEventListener('click', function() {
         sidebar.classList.add('active');
-    })
+    });
     closeBtn.addEventListener('click', function() {
         sidebar.classList.remove('active');
-    })
+    });
+
+document.addEventListener('click', function(event) {
+        if (
+            window.innerWidth <= 900 &&
+            sidebar.classList.contains('active') &&
+            !sidebar.contains(event.target) &&
+            event.target !== menuIcon
+        ) {
+            sidebar.classList.remove('active');
+        }
+});
 });

@@ -161,6 +161,7 @@ body {
 .container {
     margin-left: 240px; /* Space for the navbar */
     padding: 30px;
+    max-width: 700px;
 }
 .detail-box {
     border: 1px solid #333;
@@ -233,41 +234,6 @@ body {
 }
 .menu-icon:hover {
     background: #ee135c;
-}
-
-/* Responsive Sidebar (Slider) */
-@media (max-width: 900px) {
-    .menu-icon {
-        display: block;
-    }
-    .navbar {
-        left: -240px;
-        width: 220px;
-        transition: left 0.3s;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        z-index: 250;
-    }
-    .navbar.active {
-        left: 0;
-    }
-    .closebtn {
-        display: block;
-        position: absolute;
-        top: 18px;
-        right: 24px;
-        font-size: 36px;
-        color: #fff;
-        background: none;
-        border: none;
-        cursor: pointer;
-        z-index: 260;
-    }
-    .container {
-        margin-left: 0 !important;
-        padding: 16px;
-    }
 }
 
 .welcome-box {
@@ -364,7 +330,8 @@ body {
 @media (max-width: 900px) {
     .welcome-box {
         flex-direction: column;
-        padding: 12px 0;
+        margin-left: 0;
+        max-width: 100vw;
     }
     .welcome-content {
         flex-direction: column;
@@ -377,7 +344,46 @@ body {
     .welcome-text {
         text-align: center;
     }
+    .menu-icon {
+        display: block;
+        font-size: 25px;
+    }
+    .navbar {
+        left: -240px;
+        width: 220px;
+        transition: left 0.3s;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: 250;
+    }
+    .navbar.active {
+        left: 0;
+    }
+    .closebtn {
+        display: block;
+        position: absolute;
+        top: 18px;
+        right: 24px;
+        font-size: 36px;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 260;
+    }
+    .container {
+        margin-left: 0;
+        padding: 16px;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .announcement-bar{
+        padding-left: 0;
+    }
 }
+
 
 .main-container, .main-flex, .container {
     padding-bottom: 54px; /* Make sure this is >= footer height */
