@@ -1,30 +1,35 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #1a1a2e;
-    padding: 20px;
 }
-
-.container {
-    background-color: #fff;
-    padding: 20px;
+*{
+    background-color: #1a1a2e;
+}
+/* .container {
+    background-color: #1a1a2e;
+    /* padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-right: 25px;
-}
+    margin-right: 25px; } */
 
+.container{
+    margin-left: 10px;
+}
 h1 {
-    color: #333;
+    color: #fffbfb;
 }
 
 label {
     display: block;
     margin-top: 10px;
+    color: #fffbfb;
 }
 
 select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
+    color: #fffbfb;
 }
 
 button {
@@ -36,6 +41,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
+    color: #fffbfb;
 }
 
 button:hover {
@@ -98,8 +104,8 @@ body {
     background-color: #6c757d; /* Gray */
 }
 .container {
-    margin-left: 270px; /* Space for the navbar */
-    padding: 20px;
+    margin-left: 240px; /* Space for the navbar */
+    padding: 30px;
 }
 .detail-box {
     margin-top: 20px;
@@ -113,4 +119,49 @@ body {
     display: flex;
     justify-content: center; /* Centers the logo horizontally */
     align-items: center;    /* Centers the logo vertically */
+}
+.announcement-bar {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a2e; /* Darker Shade */
+    padding: 10px;
+    padding-left: 280px;
+    padding-top: 40px;
+    color: white
+}
+.announcement-label {
+    background-color: #ee135c; /* Orange Button */
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin-right: 25px;
+}
+.announcement-text {
+    white-space: nowrap;
+    color: #ecf0f1; /* Lighter Text Color */
+}
+.wrapper-box::before {
+    content: '';
+    background-image: url(https://i.23robo.info/projects/socialmedia.in/img/announcement-bg.webp);
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.wrapper-box {
+    border-radius: 30px;
+    background: linear-gradient(270deg, rgba(2, 9, 18, 0.00) 0%, #020912 72.7%);
+    border: 1px solid #132239;
+    position: relative;
+    padding: 7px !important;
+}
+.wrapper-box .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 0;
 }
