@@ -120,7 +120,7 @@ body {
     justify-content: center; /* Centers the logo horizontally */
     align-items: center;    /* Centers the logo vertically */
 }
-/* .announcement-bar {
+.announcement-bar {
     display: flex;
     align-items: center;
     background-color: #1a1a2e; /* Darker Shade */
@@ -138,4 +138,4 @@ body {
 .announcement-text {
     white-space: nowrap;
     color: #ecf0f1; /* Lighter Text Color */
-} */
+}
