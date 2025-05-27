@@ -2,16 +2,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1a1a2e;
 }
-*{
-    background-color: #2d2ddd;
-}
 /* .container {
     background-color: #1a1a2e;
     /* padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-right: 25px; } */
-
+*{
+    background-color: #1a1a2e;
+}
 .container{
     margin-left: 10px;
 }
@@ -56,14 +55,16 @@ button:hover {
 }
 
 footer {
-    background-color: #2C2F33;  /* Dark background */
+    background-color: #686891;  /* Dark background */
     color: white;                /* White text */
     text-align: center;          /* Centered text */ 
     position: fixed;             /* Fixed position */
     bottom: 0;                   /* Bottom of the page */
     width: 100%;                 /* Full width */
 }
-
+footer p{
+    background-color: #686891;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
@@ -109,6 +110,8 @@ body {
 }
 .detail-box {
     margin-top: 20px;
+    background-color: #1a1a2e;
+    color: #ccc;
 }
 .navbar-logo {
     height: 60px; /* Adjust height */
