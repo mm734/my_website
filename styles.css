@@ -203,7 +203,7 @@ body {
     background-color: #ee135c; /* Orange Button */
     border-radius: 15px;
     padding: 5px 15px;
-    margin-right: 25px;
+    margin-right: 15px;
     font-weight: bold;
 }
 .announcement-text {
@@ -379,12 +379,51 @@ body {
     html,body{
         overflow-x: hidden;
     }
-    .announcement-bar{
-        padding-left: 0;
+    .announcement-bar {
+        font-size: 0.85rem;        /* Smaller text */
+        padding: 8px 12px !important;  /* Less padding */
+        margin-bottom: 12px;       /* Less space below */
+        border-radius: 5px;        /* Less rounded corners */
+        padding-left: 0 !important; /* Remove left padding for mobile */
     }
+}
+.main-container, .main-flex, .container {
+    padding-bottom: 54px; /* Make sure this is >= footer height */
 }
 
 
-.main-container, .main-flex, .container {
-    padding-bottom: 54px; /* Make sure this is >= footer height */
+
+#confetti-container {
+    pointer-events: none;
+    position: fixed;
+    left: 0; top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    overflow: visible;
+}
+
+.confetti {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    opacity: 0.85;
+    will-change: transform, opacity;
+    pointer-events: none;
+    font-size: 1.1em;
+    animation: confetti-fall 1.2s linear forwards;
+}
+
+@keyframes confetti-fall {
+    0% {
+        opacity: 1;
+        transform: translateY(0,0) scale(1) rotate(0deg);
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        /* transform: translateY(70vh) scale(0.7) rotate(360deg); */
+    }
 }

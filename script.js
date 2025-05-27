@@ -99,7 +99,7 @@ function navigateTo(page) {
         case 'mass-order':
             window.location.href = 'mass-order.html'; // Replace with your actual URL
             break;
-        case 'services':
+        case 'tools':
             window.location.href = 'services.html'; // Replace with your actual URL
             break;
         case 'add-funds':
@@ -142,3 +142,81 @@ document.addEventListener('click', function(event) {
         }
 });
 });
+
+
+function throwConfetti() {
+    const confettiContainer = document.getElementById('confetti-container');
+    const shapes = ['⭐', '✨', '🌟', '💫', '🔆', '🟡', '🟣', '🔵', '🟠', '🔴'];
+    const confettiCount = 150; // Adjust as desired
+
+    // Center of the viewport
+    const centerX = window.innerWidth / 2;
+    const centerY = window.innerHeight / 2;
+
+    for (let i = 0; i < confettiCount; i++) {
+        const conf = document.createElement('span');
+        conf.className = 'confetti';
+        conf.innerText = shapes[Math.floor(Math.random() * shapes.length)];
+
+        // Start at center
+        conf.style.left = `${centerX}px`;
+        conf.style.top = `${centerY}px`;
+
+        // Random angle and distance
+        const angle = Math.random() * 2 * Math.PI;
+        const distance = 100 + Math.random() * 400; // px
+
+        // Calculate end position
+        const x = Math.cos(angle) * distance;
+        const y = Math.sin(angle) * distance;
+
+        // Set animation using CSS variables or inline style
+        conf.style.setProperty('--tx', `${x}px`);
+        conf.style.setProperty('--ty', `${y}px`);
+
+        // Random color
+        conf.style.color = `hsl(${Math.random() * 360}, 85%, 65%)`;
+
+        // Random size
+        conf.style.fontSize = (0.9 + Math.random() * 0.9) + 'em';
+
+        // Random animation delay for more natural effect
+        conf.style.animationDelay = (Math.random() * 0.2) + 's';
+
+        // Custom animation for each confetti
+        conf.style.animation = `confetti-fall 1.2s cubic-bezier(.62,.01,.42,1.06) forwards`;
+        conf.style.transform = `translate(0,0)`;
+
+        // Add a custom keyframe for each confetti for unique direction
+        conf.animate([
+            { opacity: 1, transform: 'translate(0,0) scale(1) rotate(0deg)' },
+            { opacity: 1, offset: 0.7 },
+            { opacity: 0, transform: `translate(${x}px, ${y}px) scale(0.7) rotate(360deg)` }
+        ], {
+            duration: 1200 + Math.random() * 400,
+            delay: Math.random() * 2,
+            fill: 'forwards'
+        });
+
+        confettiContainer.appendChild(conf);
+
+        // Remove after animation
+        setTimeout(() => conf.remove(), 1800);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // ... your other DOMContentLoaded code (sidebar, etc.) ...
+
+    // Attach confetti to the Explore Services button
+    const exploreBtn = document.querySelector('.explore-btn');
+    if (exploreBtn) {
+        exploreBtn.addEventListener('click', function(e) {
+            e.preventDefault(); // Prevent default if the button is inside a form or is a submit button
+            throwConfetti();
+            // Optionally, redirect after a short delay:
+            // setTimeout(() => navigateTo('services'), 800);
+        });
+    }
+});
+
