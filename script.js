@@ -100,19 +100,19 @@ function navigateTo(page) {
             window.location.href = 'mass-order.html'; // Replace with your actual URL
             break;
         case 'tools':
-            window.location.href = 'services.html'; // Replace with your actual URL
+            window.location.href = 'tools.html'; // Replace with your actual URL
             break;
         case 'add-funds':
             window.location.href = 'add-funds.html'; // Replace with your actual URL
             break;
+        case 'topsell':
+            window.location.href = 'topsell.html'; // Replace with your actual URL
+            break;
         case 'orders':
             window.location.href = 'orders.html'; // Replace with your actual URL
             break;
-        case 'refunds':
-            window.location.href = 'refunds.html'; // Replace with your actual URL
-            break;
-        case 'refill':
-            window.location.href = 'refill.html'; // Replace with your actual URL
+        case 'contactus':
+            window.location.href = 'contactus.html'; // Replace with your actual URL
             break;
         default:
             console.log("Page not found");

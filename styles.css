@@ -13,15 +13,6 @@ body {
     color: #fff;
     min-height: 100vh;
 }
-/* .container {
-    background-color: #1a1a2e;
-    /* padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-right: 25px; } */
-/* *{
-    background-color: #1a1a2e;
-} */
 .container {
     margin-left: 240px;
     padding: 40px;
@@ -240,13 +231,24 @@ body {
     position: relative;
     margin: 0;
     margin-left: 250px;
-    max-width: 900px;
+    max-width: 1050px;
     background: #20203a;
     border-radius: 22px;
     box-shadow: 0 6px 24px rgba(30,30,60,0.18);
     overflow: hidden;
     z-index: 10;
     min-height: 230px
+}
+.welcome-character .welcome-img {
+    width: 250px;
+    height: 340px;
+    object-fit: contain;
+    display: block;
+    border-radius: 18px; /* Optional: for rounded corners */
+    box-shadow: 0 2px 12px rgba(30,30,60,0.10); /* Optional: for subtle shadow */
+    background: transparent;
+    margin: 0;
+    padding: 0;
 }
 
 .welcome-bg-icons {
@@ -263,7 +265,7 @@ body {
 }
 .icon-bubble {
     position: absolute;
-    bottom: 24px; right: 38px;
+    bottom: 14px; right: 48px;
     width: 48px; height: 48px;
     opacity: 0.18;
 }
@@ -386,6 +388,17 @@ body {
         border-radius: 5px;        /* Less rounded corners */
         padding-left: 0 !important; /* Remove left padding for mobile */
     }
+    .welcome-character .welcome-img {
+        width: 150px;
+        height: 140px;
+        object-fit: contain;
+        display: block;
+        border-radius: 18px; /* Optional: for rounded corners */
+        box-shadow: 0 2px 12px rgba(30,30,60,0.10); /* Optional: for subtle shadow */
+        background: transparent;
+        margin: 0;
+        padding: 0;
+}
 }
 .main-container, .main-flex, .container {
     padding-bottom: 54px; /* Make sure this is >= footer height */
