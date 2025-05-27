@@ -90,3 +90,31 @@ function buyService() {
         alert('Please select a service.');
     }
 }
+
+function navigateTo(page) {
+    switch (page) {
+        case 'Services':
+            window.location.href = 'index.html'; // Replace with your actual URL
+            break;
+        case 'mass-order':
+            window.location.href = 'mass-order.html'; // Replace with your actual URL
+            break;
+        case 'services':
+            window.location.href = 'services.html'; // Replace with your actual URL
+            break;
+        case 'add-funds':
+            window.location.href = 'add-funds.html'; // Replace with your actual URL
+            break;
+        case 'orders':
+            window.location.href = 'orders.html'; // Replace with your actual URL
+            break;
+        case 'refunds':
+            window.location.href = 'refunds.html'; // Replace with your actual URL
+            break;
+        case 'refill':
+            window.location.href = 'refill.html'; // Replace with your actual URL
+            break;
+        default:
+            console.log("Page not found");
+    }
+}

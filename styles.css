@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #1a1a2e;
     padding: 20px;
 }
 
@@ -9,6 +9,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 25px;
 }
 
 h1 {
@@ -27,13 +28,14 @@ select {
 }
 
 button {
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px;
     background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%;
 }
 
 button:hover {
@@ -54,4 +56,61 @@ footer {
     position: fixed;             /* Fixed position */
     bottom: 0;                   /* Bottom of the page */
     width: 100%;                 /* Full width */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 200px;
+    background-color: #1a1a2e;
+    padding: 20px;
+    color: white;
+    position: fixed; /* Fix navbar on the side */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scrolling if needed */
+}
+.section {
+    margin-bottom: 20px;
+}
+.button {
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.new-order {
+    background-color: #007BFF; /* Blue */
+}
+.mass-order, .services, .add-funds, .orders, .refunds, .refill {
+    background-color: #6c757d; /* Gray */
+}
+.container {
+    margin-left: 270px; /* Space for the navbar */
+    padding: 20px;
+}
+.detail-box {
+    margin-top: 20px;
+}
+.navbar-logo {
+    height: 60px; /* Adjust height */
+    margin-right: 15px; /* Space between logo and nav items */
+    border-radius: 100px;
+}
+.logo-container{
+    display: flex;
+    justify-content: center; /* Centers the logo horizontally */
+    align-items: center;    /* Centers the logo vertically */
 }

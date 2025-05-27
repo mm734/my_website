@@ -7,8 +7,38 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+        <title>Navigation Bar</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="Logo.jpg" alt="Logo" class="navbar-logo">
+        </div>
+    <div class="section">
+        <h3>Features</h3>
+        <button onclick="navigateTo('Services')">Services</button>
+        <button onclick="navigateTo('mass-order')">Mass order</button>
+        <button onclick="navigateTo('services')">Services</button>
+    </div>
+&nbsp;
+&nbsp;
+    <div class="section">
+        <h3>Payments:</h3>
+        <button onclick="navigateTo('add-funds')">Add funds</button>
+    </div>
+&nbsp;
+&nbsp;
+    <div class="section">
+        <h3>Order History:</h3>
+        <button onclick="navigateTo('orders')">Orders</button>
+        <button onclick="navigateTo('refunds')">Refunds</button>
+        <button onclick="navigateTo('refill')">Refill</button>
+    </div>
+</div>
+&nbsp;
+&nbsp;
     <div class="container">
-        <h1>New Order</h1>
+        <h1>Our Services</h1>
 
         <!-- Category Dropdown -->
         <label for="category">Category:</label>
@@ -36,6 +66,7 @@
 </body>
 
 <footer>
-    <p>@ shotout_of_gujarat</p>
+    <p>© Copyright shotout_of_gujarat All Rights Reserved</p>
 </footer>
-</html>
+</footer>
+</html> 
