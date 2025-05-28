@@ -96,8 +96,8 @@ function navigateTo(page) {
         case 'Services':
             window.location.href = 'index.html'; // Replace with your actual URL
             break;
-        case 'mass-order':
-            window.location.href = 'mass-order.html'; // Replace with your actual URL
+        case 'Proofs':
+            window.location.href = 'proof/proofs.html'; // Replace with your actual URL
             break;
         case 'tools':
             window.location.href = 'pp1/instagram-tools.html'; // Replace with your actual URL
