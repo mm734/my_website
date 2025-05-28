@@ -112,7 +112,7 @@ function navigateTo(page) {
             window.location.href = 'achievements.html'; // Replace with your actual URL
             break;
         case 'contactus':
-            window.location.href = 'contactus.html'; // Replace with your actual URL
+            window.location.href = 'contactus/contactus.html'; // Replace with your actual URL
             break;
         default:
             console.log("Page not found");
