@@ -2,9 +2,9 @@
 const imageList = [
     "proof1.JPG",
     "proof2.JPG",
-    "proof3.jpg",
-    "proof4.jpg",
-    "proof5.jpg"
+    "proof3.JPG",
+    "proof4.JPG",
+    "proof5.JPG"
     // Add more images here as you upload daily
 ];
 
