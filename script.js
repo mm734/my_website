@@ -108,8 +108,8 @@ function navigateTo(page) {
         case 'topsell':
             window.location.href = 'topsell.html'; // Replace with your actual URL
             break;
-        case 'orders':
-            window.location.href = 'orders.html'; // Replace with your actual URL
+        case 'achievements':
+            window.location.href = 'achievements.html'; // Replace with your actual URL
             break;
         case 'contactus':
             window.location.href = 'contactus.html'; // Replace with your actual URL
