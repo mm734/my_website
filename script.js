@@ -100,7 +100,7 @@ function navigateTo(page) {
             window.location.href = 'mass-order.html'; // Replace with your actual URL
             break;
         case 'tools':
-            window.location.href = 'tools.html'; // Replace with your actual URL
+            window.location.href = 'pp1/instagram-tools.html'; // Replace with your actual URL
             break;
         case 'add-funds':
             window.location.href = 'add-funds.html'; // Replace with your actual URL

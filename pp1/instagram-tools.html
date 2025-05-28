@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram Tools</title>
+  <!-- <link rel="icon" type="image/x-icon" href="https://storage.perfectcdn.com/fcm9r8/1qnbhs3k1wuqrnta.ico"> -->
+  <link rel="stylesheet" href="css-1.css">
+  <link rel="stylesheet" href="css-2.css">
+  <!-- <link rel="stylesheet" href="https://storage.perfectcdn.com/css/font-awesome/css/all.min.css"> -->
+  <style>
+    .btn-primary { background-color: #007bff; border: none; }
+    .btn-primary:hover { background-color: #0056b3; }
+    .loading { display: none; text-align: center; margin-top: 15px; }
+    .result { display: none; margin-top: 20px; padding: 15px; border-radius: 15px; background-color: #6d4e1f; }
+    input#usernameInput::placeholder { color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="topSecAff text-center mb-2">
+          <h1>All <b>Instagram</b> Tools you need.</h1>
+          <p>
+            Track your live follower count and instantly filter out spam with our essential Instagram tools – simple, fast, and effective.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <ul class="nav nav-pills nav-fill top-pills tabs-js" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-igfoll-tab" data-bs-toggle="pill" data-bs-target="#pills-igfoll" type="button" role="tab" aria-controls="pills-igfoll" aria-selected="true">Instagram Live Follower Count</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-igfoll" role="tabpanel" aria-labelledby="pills-igfoll-tab" tabindex="0">
+            <div class="card">
+              <div class="card-header-custom">
+                <i class="ti ti-brand-instagram"></i>
+                <div>
+                  <p>Instagram Live Followers Checker</p>
+                  <small>Check your Followers Before Ordering!</small>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Your Instagram Username" id="igUserfield">
+                  <button class="btn btn-primary w-100 mt-3" onclick="updateIframe()">Check Now!</button>
+                </div>
+                <div id="iframeContainer">
+                  <div class="livecountiframewrapper">
+                    <iframe class="livecountiframe w-100" height="400" frameborder="0" id="liveCountIframe" src="https://mixerno.space/embed/instagram-user-counter/Cristiano"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- You can add more tab panes for other tools here -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function updateIframe() {
+      let username = document.getElementById('igUserfield').value.trim();
+      let container = document.getElementById('iframeContainer');
+      if (username) {
+        container.innerHTML = '<div class="placeholder"></div>';
+        setTimeout(() => {
+          container.innerHTML = `<iframe class="livecountiframe w-100" height="400" frameborder="0" src="https://mixerno.space/embed/instagram-user-counter/${encodeURIComponent(username)}"></iframe>`;
+        }, 100);
+      }
+    }
+  </script>
+  <!-- Essential JS Libraries (Bootstrap, Swiper) -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    /* background-color: #1a1a2e; */
+    background: linear-gradient(135deg, #1a1a2e 60%, #ee135c 100%);
+    color: #fff;
+    min-height: 100vh;
+}
+</style>
+</body>
+</html>
