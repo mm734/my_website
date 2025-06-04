@@ -79,5 +79,7 @@ p {
 
     .contact-container {
         padding: 25px 20px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
 }
