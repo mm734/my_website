@@ -164,7 +164,16 @@ const services = {
         { id: "5021", name: "[5021] - 📈 Instagram [REEL /POST] - SHARES - LIFETIME - MAIN PROVIDER🔥🔥 - ₹39.807 per 1000" },
     ],
     youtubeServices: [
-
+        { id: "6001", name: "[6001] - ▶️ Youtube Views [𝐀𝐃 𝐕𝐈𝐄𝐖𝐒] | 𝐒𝐏𝐄𝐄𝐃 :𝟏𝐌+/𝐃 | 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏 | SUPER FAST🔥🔥⚡⚡ - ₹169.684 per 1000" },
+        { id: "6002", name: "[6002] - ▶️ Youtube Views [𝟏𝟎𝟎% 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏] 𝐍𝐀𝐓𝐈𝐕𝐄 𝐀𝐃𝐒 - 𝟏𝟎𝟎% 𝐑𝐄𝐀𝐋 𝐔𝐒𝐄𝐑𝐒 | SPEED :𝟏𝐌-𝟐𝐌/𝐇𝐎𝐔𝐑 - LIFETIME🔥🔥 - ₹249.902 per 1000" },
+        { id: "6003", name: "[6003] - 𝓝𝑬𝓦 ▶️ Youtube Special Views [20K-50K+/D] - LIFETIME GUARANTEE🔥🔥🔥 - ₹149.96 per 1000" },
+        { id: "6004", name: "[6004] - ▶️ Youtube Likes [10K-30K/D] - NO REFILL 🔥 - ₹49.32 per 1000" },
+        { id: "6005", name: "[6005] - ▶️ 👍Youtube Likes [HQ] [NON DROP] | SPEED : 100K/D - FAST🔥🔥 - ₹99.80 per 1000" },
+        { id: "6006", name: "[6006] - ▶️ 👍Youtube Likes [HQ] [NON DROP] [100K-200K/D ] - INSTANT - 365 DAYS REFILL🔥🔥 - ₹159.83 per 1000" },
+        { id: "6007", name: "[6007] - 🆕 ⭕️ Youtube Real Like - ⭐️For Indian Songs , Movie Trailer & Influencers Video - ⚡️Super Fast [ 50k-200k/Day ] - 🔥No Drop - 💎1 Month Guarantee - ₹199.35 per 1000" },
+        { id: "6008", name: "[6008] - 🆕⛔YouTube Subscriber 🌟CHEAPEST IN WORLD ✅OWN SERVER 🚫NO REFILL 🚀Speed: upto 5k per day 🎯Random Drop - ₹59.08 per 1000" },
+        { id: "6009", name: "[6009] - 𝐍𝐄𝐖▶️ Youtube Subscribers [𝐍𝐎𝐍 𝗗𝗥𝗢𝗣] [SPEED - 100-500/D] - BEST🔥🔥 - ₹299.60 per 1000" },
+        { id: "6010", name: "[6010] - 𝐍𝐄𝐖 ▶️Youtube Subscribers [𝟭𝟬𝟬% 𝗡𝗢𝗡 𝗗𝗥𝗢𝗣] [SEARCH CHANNEL + SUBSCRIBER] - CHANNEL HIGHGROWTH🔥🔥🔥🔥🔥🔥 - ₹799.01 per 1000" },
     ],
     telegramServices: [
 
@@ -190,7 +199,9 @@ const services = {
 
     ],
     byoutubeServices: [
-
+        { id: "6101", name: "[6101] - ▶️ Youtube Subscribers [𝟭𝟬𝟬% 𝗡𝗢𝗡 𝗗𝗥𝗢𝗣] [SUPER FAST] - [10,000 SUBSCRIBERS PACKAGE] ⭐⭐🔥🔥🔥 🔥 - ₹2499.00 per 10,000" },
+        { id: "6102", name: "[6102] - ▶️ Youtube Views [50K PACKAGE ] [NON DROP] - Super Fast 🔥🔥 - ₹119.76 per 1000" },
+        { id: "6103", name: "[6103] - ▶️ 👍Youtube Likes [HQ] [NON DROP] [100K-200K/D ][10K PACKAGE ]- INSTANT - 365 DAYS REFILL🔥🔥 - ₹139.83 per 1000" },
     ],
     btelegramServices: [
 
@@ -286,8 +297,36 @@ function updateDetails() {
             details = `<p>Quality: MIX</p><p>Start: 0-1H</p><p>Speed: 50K/D</p><p>Refill: NOT</p><p>Average: 20 Mins</p><br><p>⚠️MAKE SURE YOUR FLAG IS OFF - BEFORE PLACING ORDER OR ELSE NO REFUND IF FLAG IS ON⚠️</p><p>📝 NO GUARANTEE / NO REFILL</p>`; break;
         case "5108":
             details = `<p>Start: 0-1H</p><p>Speed: 10K - 20K/D</p><p>Refill: 365 Days</p><p>Average: 105 Mins</p><br><p>🔥SMMSM OLD ACCOUNT MIX FOLLOWERS !!</p><br><p>🔥𝐀𝐁𝐎𝐔𝐓 𝐒𝐄𝐑𝐕𝐈𝐂𝐄 :</p><p>Speed: 10K-20K/D</p><p>- REFILL : 365 DAYS</p><p>- DROP : NON DROP ( NON DROP ONLY ON NEW PROFILES FROM 0 . IF YOU HAVE OLD FOLLOWERS WHICH TAKEN FROM OTHER SERVICES , THEN IT CAN DROP .)</p><p>-NOTE : REFILL WILL BE DONE ONLY IF THIS SERVICE FOLLOWERS DROP , WE DONT REFILL FOR OTHER SERVICE FOLLOWERS</p><p>🔥𝐒𝐄𝐑𝐕𝐈𝐂𝐄 𝐐𝐔𝐀𝐋𝐈𝐓𝐘 :</p><p>- OLD ACCOUNTS</p><p>- GLOBAL MIX QUALITY</p><p>- 365 DAYS GUARANTEE ONLY</p><br><p>🔥𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 :</p><p>- If your Account Username is Changed ,you wont get any REFILL for your guarantee period</p><p>-Dont change to PRIVATE ACCOUNT , then you wont get AUTO-REFILL if there is DROP.</p>`; break;
+        // youtue service
+        case "6001":
+            details = `<p>Start: 0-12H (can delay upto 24H , due to over orders)</p><p>Speed: 30K-100K/Day</p><p>Quality: REAL</p><p>Refill: NON DROP</p><br><p>🔥𝟏𝟎𝟎% 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏 𝐎𝐍𝐋𝐘</p><p>🔥𝐀𝐁𝐎𝐔𝐓 𝐒𝐄𝐑𝐕𝐈𝐂𝐄</p><p>Videos must be open to all countries.</p><p>30 Days Refill</p><br><p>🔥NOTE - DONT KEEP ANY AGE RESTRICTIONS OR ANY OTHER THING AS RESTRICTIONS TO VIDEOS</p>`; break;
+        case "6002":
+            details = `<p>Start: 0-1H</p><p>Speed: 1M/ HOUR</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 5 Mins</p><br><p>🔥100% NON DROP SERVICE</p><p>🔥LIFETIME GUARANTEE IF OUR VIEWS DROP !!</p><p>🔥REAL USERS VIEWS , NEVER DROP !!</p><p>Views show in Studio first, then on YouTube after 4-5 hrs</p><br><p>NOTE: REMOVE AGE, COUNTRY, CATEGORY RESTRICTIONS</p>`; break;
+        case "6003":
+            details = `<p>Start: 0-1H</p><p>Speed: 10K-20K/D</p><p>Quality: REAL</p><p>Refill: NON DROP</p><br><p>🔥ABOUT SERVICE - LOW DROP VIEWS</p><p>WORKS ON BOTH SHORTS AND NORMAL VIDEOS</p><p>LIFETIME GUARANTEE</p>`; break;
+        case "6004":
+            details = `<p>Start: 0-1H</p><p>Speed: 10K-20K/Day</p><p>Quality: REAL</p><p>Refill: NOT</p><br><p>🔥ABOUT SERVICE - FAST SERVICE</p><p>CAN DROP ANY TIME, NO GUARANTEE</p><p>NO REFILL !!</p>`; break;
+        case "6005":
+            details = `<p>Start: 0-1H</p><p>Speed: 50K/ Day</p><p>Quality: REAL + HQ USERS</p><p>Refill: 30 Days</p><p>Average: 15 Mins</p><br><p>⭐NON DROP</p><p>⭐FRESH LINK UPTO 100K CAN BE VERY FAST</p><p>⭐100K/D Speed</p><p>⭐30 DAYS REFILL GUARANTEE , BUT CURRENTLY NO DROP !!</p>`; break;
+        case "6006":
+            details = `<p>Start: 0-1H</p><p>Speed: 100K-300K/D</p><p>Quality: REAL + HQ USERS</p><p>Refill: NON DROP</p><p>Average: 5 Mins</p><br><p>⭐NON DROP</p><p>⭐BEST FOR BIG TRAILERS</p><p>⭐365 DAYS REFILL GUARANTEE , BUT CURRENTLY NO DROP !!</p>`; break;
+        case "6007":
+            details = `<p>⭐️For Indian Songs , Movie Trailer & Influencers Video</p><p>Start: 0-1H</p><p>Speed: 50k-200k / Day [Slow if Overload]</p><p>Refill: 30 Days</p><p>Geo: India Majority</p><p>Drop ratio: Not Expected</p><br><p>⚠️Video Likes must be Public & Open for All Countries</p><p>Notes: Account must be PUBLIC</p><p>Alert: Do not make changes to video or archive after ordering</p>`; break;
+        case "6008":
+            details = `<p>Start: 0-2H</p><p>Speed: 5k/Day [Slow if Overload]</p><p>Refill: No</p><p>Drop Ratio: Expected</p><br><p>Subscribers must be Public & Open for All Countries</p><p>✅Faster Speed with 1-3 Videos on Channel</p>`; break;
+        case "6009":
+            details = `<p>Start: 0-4H</p><p>Speed: 100-500/Day</p><p>Quality: REAL + HQ ACTIVE</p><p>Refill: NON DROP</p><p>Average: 8 Hours 10 Mins</p><br><p>🔥Drop Ratio: LOW DROP or 0-15%</p><p>🔥30 DAYS REFILL AVAILABLE</p><p>🔥Channel must be PUBLIC and have at least one video > 2 mins</p>`; break;
+        case "6010":
+            details = `<p>Start: 0-12H</p><p>Speed: 30-50/Day</p><p>Quality: REAL + HQ ACTIVE</p><p>Refill: NON DROP</p><p>Average: 5 Hours 40 Mins</p><br><p>🔥Users search your channel name, then subscribe - 1000% NON DROP</p><p>🔥Recommended Channel Boost</p><p>🔥30 DAYS REFILL ONLY</p><br><p>⚠️Channel must have 3-5 min videos</p><p>⚠️Make Subscribers Count PUBLIC</p>`; break;
+        // youtube bulk service
+        case "6101":
+            details = `<p>Start: 0-24H (May start in 4-12H)</p><p>Speed: 500-2K/Day</p><p>Quality: REAL + HQ ACTIVE</p><p>Refill: NON DROP</p><p>Average: COMPLETE IN 6-10 DAYS</p><br><p>🔥10,000 SUBSCRIBERS NON DROP PACKAGE!!</p><p>🔥30 DAYS REFILL ONLY IF DROP</p><p>🔥CHANNEL GROWTH + MONETIZATION SUBSCRIBERS</p><p>🔥SUPER FAST AND 100% NON DROP !!</p><p>🔥BIG CHANNELS CAN BUY THIS PACKAGE !!</p>`; break;
+        case "6102":
+            details = `<p>Start: 0-12H (Ads Approval May Delay)</p><p>Speed: SUPER FAST</p><p>Quality: REAL ADS VIEWS + HIGH REVENUE</p><p>Refill: NON DROP</p><p>Average: COMPLETE IN 24-48HRS</p><br><p>%100 Real ADS Views</p><p>🔥Never Drop!</p>`; break;
+        case "6103":
+            details = `<p>Start: 0-1H</p><p>Speed: 100K-300K/D</p><p>Quality: REAL + HQ USERS</p><p>Refill: NON DROP</p><p>Average: 5 Mins</p><br><p>⭐NON DROP</p><p>⭐BEST FOR BIG TRAILERS</p><p>⭐365 DAYS REFILL GUARANTEE , BUT CURRENTLY NO DROP !!</p>`; break;
 
-        default:
+            default:
             details = "<p>Please select a service to see the details.</p>";
     }
     detailBox.innerHTML = details;
