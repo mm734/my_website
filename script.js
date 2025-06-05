@@ -131,38 +131,37 @@ document.addEventListener('DOMContentLoaded', function () {
 
 const services = {
     newServices: [
-        { id: "188341", name: "New Services" },
+
     ],
     popularServices: [
-        { id: "5023", name: "Twitter Followers" },
-        { id: "5024", name: "YouTube Subscribers" },
+
     ],
     exclusiveServices: [
 
     ],
     instagramServices: [
-        { id: "5001", name: "🎦🎥Instagram VIEWS + REELS + IGTV | 𝐒𝐩𝐞𝐞𝐝 : 10M/𝐃 | INSTANT🔥🔥 - ₹7.00 per 1000 " },
-        { id: "5002", name: "🎦🎥Instagram VIEWS + REELS + IGTV | 𝐒𝐩𝐞𝐞𝐝 : 1M/𝐃 | HIGH QUALITY🔥🔥 - ₹10.00 per 1000" },
-        { id: "5003", name: "❣️ Instagram Likes [BOTS] NO DP | 5K-10K/D | NO REFILL - CHEAPEST ON MARKET - ₹9.00 per 1000" },
-        { id: "5004", name: "❣️ Instagram Likes [POST/REELS/IGTV] [BOT MIX PROFILES] NO DP- ₹19.00 per 1000" },
-        { id: "5005", name: "❣️ Instagram Likes [𝟏𝟎𝟎% 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏]| 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 - HQ🔥🔥 - ₹49.00 per 1000" },
-        { id: "5006", name: "🥇🇮🇳 Instagram Likes [Power] [𝑰𝑵𝑫𝑰𝑨𝑵] [𝙎𝙏𝙊𝙍𝙄𝙀𝙎 + 𝙍𝙀𝘼𝙇 𝘼𝘾𝙏𝙄𝙑𝙀] - - ₹103.00 per 1000" },
-        { id: "5007", name: "🥇🇮🇳 𝐍𝐄𝐖 Instagram Likes [𝑰𝑵𝑫𝑰𝑨𝑵] - INDIAN LIKES PREMIUM - RECOMMENDED 👌👌🔥🔥 - ₹109.75 per 1000" },
-        { id: "5008", name: "🥇🇮🇳 Instagram Likes [Power] [𝑰𝑵𝑫𝑰𝑨𝑵] [𝐑𝐄𝐀𝐋 𝐔𝐒𝐄𝐑𝐒 𝐕𝐈𝐀 𝐀𝐃𝐒] [100% 𝑵𝑶𝑵 𝑫𝑹𝑶𝑷] - MORE GROW PROFILE🔥🔥 - ₹199.00 per 1000" },
-        { id: "5009", name: " 💥 Instagram Followers [MIXED] FLAG OFF ONLY - NO REFILL 🎉 - ₹89.00 per 1000" },
-        { id: "5010", name: "💥 Instagram Followers | 𝐀𝐋𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒 | 𝐌𝐈𝐗 !! | 𝐅𝐀𝐒𝐓 | 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 🔥🔥 - 30 DAYS REFILL - ₹149.908 per 1000" },
-        { id: "5011", name: "💥 Instagram Followers | 𝐀𝐋𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒 | 𝐌𝐈𝐗 !! | 𝐅𝐀𝐒𝐓 | 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 🔥🔥 - 90 DAYS REFILL - ₹169.908 per 1000" },
-        { id: "5012", name: "💥 𝐍𝐄𝐖 Instagram Followers | 𝐀𝐋𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒 | 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏 || 𝐎𝐋𝐃 𝐀𝐂𝐎𝐔𝐍𝐓𝐒| 𝐒𝐔𝐏𝐄𝐑 𝐅𝐀𝐒𝐓 | 𝐈𝐍𝐒𝐓𝐀𝐍𝐓 🚀 - 365 DAYS REFILL🔥🔥♻️ - ₹249.63 per 1000" },
-        { id: "5013", name: "💥 Instagram Followers [𝐀𝐋𝐋 𝐋𝐈𝐍𝐊𝐒] |🇮🇳𝐈𝐍𝐃𝐈𝐀𝐍 𝐌𝐈𝐗 + 𝐆𝐋𝐎𝐁𝐀𝐋!!| 𝐒𝐏𝐄𝐄𝐃 : 5𝟎𝐊/𝐃 - 365 DAYS REFILL ♻️🔥🔥 - ₹299.72 per 1000" },
-        { id: "5014", name: "💥🇮🇳 Instagram Followers Real [𝑰𝑵𝑫𝑰𝑨𝑵] + 𝐒𝐓𝐎𝐑𝐈𝐄𝐒 & 𝐇𝐈𝐆𝐇𝐋𝐈𝐆𝐇𝐓𝐒 🔥 🔥 - LIFETIME 🔥 - ₹455.19 per 1000" },
-        { id: "5015", name: " ✉️ Instagram Comment [CUSTOM] - INDIAN MIX 🔥 - START : 24H + - ₹299.141 per 1000" },
-        { id: "5016", name: "🌍Instagram Story [Views + Reach] - BEST🔥🔥 - ₹39.874 per 1000" },
-        { id: "5022", name: "🌍Instagram Story [Views] - BEST🔥 - ₹35.558 per 1000" },
-        { id: "5017", name: "🌍Instagram Story [POLL VOTE] - [YES] - ₹69.009 per 1000" },
-        { id: "5018", name: "🌍Instagram Story [POLL VOTE] - [NO] - ₹69.009 per 1000" },
-        { id: "5019", name: "🌍 Instagram Post / Reels [REACH + IMPRESSIONS] - CHEAPEST - ₹36.28 per 1000" },
-        { id: "5020", name: "🌍 Instagram Saves [Post / Reels] - Fast🔥 - ₹39.20 per 1000" },
-        { id: "5021", name: " 📈 Instagram [REEL /POST] - SHARES - LIFETIME - MAIN PROVIDER🔥🔥 - ₹39.807 per 1000" },
+        { id: "5001", name: "[5001] - 🎦🎥Instagram VIEWS + REELS + IGTV | 𝐒𝐩𝐞𝐞𝐝 : 10M/𝐃 | INSTANT🔥🔥 - ₹7.00 per 1000 " },
+        { id: "5002", name: "[5002] - 🎦🎥Instagram VIEWS + REELS + IGTV | 𝐒𝐩𝐞𝐞𝐝 : 1M/𝐃 | HIGH QUALITY🔥🔥 - ₹10.00 per 1000" },
+        { id: "5003", name: "[5003] - ❣️ Instagram Likes [BOTS] NO DP | 5K-10K/D | NO REFILL - CHEAPEST ON MARKET - ₹9.00 per 1000" },
+        { id: "5004", name: "[5004] - ❣️ Instagram Likes [POST/REELS/IGTV] [BOT MIX PROFILES] NO DP- ₹19.00 per 1000" },
+        { id: "5005", name: "[5005] - ❣️ Instagram Likes [𝟏𝟎𝟎% 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏]| 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 - HQ🔥🔥 - ₹49.00 per 1000" },
+        { id: "5006", name: "[5006] - 🥇🇮🇳 Instagram Likes [Power] [𝑰𝑵𝑫𝑰𝑨𝑵] [𝙎𝙏𝙊𝙍𝙄𝙀𝙎 + 𝙍𝙀𝘼𝙇 𝘼𝘾𝙏𝙄𝙑𝙀] - - ₹103.00 per 1000" },
+        { id: "5007", name: "[5007] - 🥇🇮🇳 𝐍𝐄𝐖 Instagram Likes [𝑰𝑵𝑫𝑰𝑨𝑵] - INDIAN LIKES PREMIUM - RECOMMENDED 👌👌🔥🔥 - ₹109.75 per 1000" },
+        { id: "5008", name: "[5008] - 🥇🇮🇳 Instagram Likes [Power] [𝑰𝑵𝑫𝑰𝑨𝑵] [𝐑𝐄𝐀𝐋 𝐔𝐒𝐄𝐑𝐒 𝐕𝐈𝐀 𝐀𝐃𝐒] [100% 𝑵𝑶𝑵 𝑫𝑹𝑶𝑷] - MORE GROW PROFILE🔥🔥 - ₹199.00 per 1000" },
+        { id: "5009", name: "[5009] - 💥 Instagram Followers [MIXED] FLAG OFF ONLY - NO REFILL 🎉 - ₹89.00 per 1000" },
+        { id: "5010", name: "[5010] - 💥 Instagram Followers | 𝐀𝐋𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒 | 𝐌𝐈𝐗 !! | 𝐅𝐀𝐒𝐓 | 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 🔥🔥 - 30 DAYS REFILL - ₹149.908 per 1000" },
+        { id: "5011", name: "[5011] - 💥 Instagram Followers | 𝐀𝐋𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒 | 𝐌𝐈𝐗 !! | 𝐅𝐀𝐒𝐓 | 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 🔥🔥 - 90 DAYS REFILL - ₹169.908 per 1000" },
+        { id: "5012", name: "[5012] - 💥 𝐍𝐄𝐖 Instagram Followers | 𝐀𝐋𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒 | 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏 || 𝐎𝐋𝐃 𝐀𝐂𝐎𝐔𝐍𝐓𝐒| 𝐒𝐔𝐏𝐄𝐑 𝐅𝐀𝐒𝐓 | 𝐈𝐍𝐒𝐓𝐀𝐍𝐓 🚀 - 365 DAYS REFILL🔥🔥♻️ - ₹249.63 per 1000" },
+        { id: "5013", name: "[5013] - 💥 Instagram Followers [𝐀𝐋𝐋 𝐋𝐈𝐍𝐊𝐒] |🇮🇳𝐈𝐍𝐃𝐈𝐀𝐍 𝐌𝐈𝐗 + 𝐆𝐋𝐎𝐁𝐀𝐋!!| 𝐒𝐏𝐄𝐄𝐃 : 5𝟎𝐊/𝐃 - 365 DAYS REFILL ♻️🔥🔥 - ₹299.72 per 1000" },
+        { id: "5014", name: "[5014] - 💥🇮🇳 Instagram Followers Real [𝑰𝑵𝑫𝑰𝑨𝑵] + 𝐒𝐓𝐎𝐑𝐈𝐄𝐒 & 𝐇𝐈𝐆𝐇𝐋𝐈𝐆𝐇𝐓𝐒 🔥 🔥 - LIFETIME 🔥 - ₹455.19 per 1000" },
+        { id: "5015", name: "[5015] - ✉️ Instagram Comment [CUSTOM] - INDIAN MIX 🔥 - START : 24H + - ₹299.141 per 1000" },
+        { id: "5016", name: "[5016] - 🌍Instagram Story [Views + Reach] - BEST🔥🔥 - ₹39.874 per 1000" },
+        { id: "5022", name: "[5022] - 🌍Instagram Story [Views] - BEST🔥 - ₹35.558 per 1000" },
+        { id: "5017", name: "[5017] - 🌍Instagram Story [POLL VOTE] - [YES] - ₹69.009 per 1000" },
+        { id: "5018", name: "[5018] - 🌍Instagram Story [POLL VOTE] - [NO] - ₹69.009 per 1000" },
+        { id: "5019", name: "[5019] - 🌍 Instagram Post / Reels [REACH + IMPRESSIONS] - CHEAPEST - ₹36.28 per 1000" },
+        { id: "5020", name: "[5020] - 🌍 Instagram Saves [Post / Reels] - Fast🔥 - ₹39.20 per 1000" },
+        { id: "5021", name: "[5021] - 📈 Instagram [REEL /POST] - SHARES - LIFETIME - MAIN PROVIDER🔥🔥 - ₹39.807 per 1000" },
     ],
     youtubeServices: [
 
@@ -180,6 +179,14 @@ const services = {
 
     ],
     binstagramServices: [
+        { id: "5101", name: "[5101] - 🎦🎥Instagram VIEWS | 𝐒𝐩𝐞𝐞𝐝 : 10M/𝐃 | INSTANT🔥🔥 - ₹99.00 per 100K " },
+        { id: "5102", name: "[5102] - 🎦🎥Instagram VIEWS | 𝐒𝐩𝐞𝐞𝐝 : 10M/𝐃 | INSTANT🔥🔥 - ₹299.00 per 500K " },
+        { id: "5103", name: "[5103] - 🎦🎥Instagram VIEWS | 𝐒𝐩𝐞𝐞𝐝 : 10M/𝐃 | INSTANT🔥🔥 - ₹499.00 per 1 MILLION " },
+        { id: "5104", name: "[5104] - ❣️ Instagram Likes [BOTS] NO DP | 5K-10K/D | NO REFILL - CHEAPEST ON MARKET - ₹79.00 per 10,000" },
+        { id: "5105", name: "[5105] - ❣️ Instagram Likes [𝟏𝟎𝟎% 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏]| 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 - HQ🔥🔥 - ₹299.00 per 10,000" },
+        { id: "5106", name: "[5106] - 🥇🇮🇳 Instagram Likes [Power] [𝑰𝑵𝑫𝑰𝑨𝑵] [𝙎𝙏𝙊𝙍𝙄𝙀𝙎 + 𝙍𝙀𝘼𝙇 𝘼𝘾𝙏𝙄𝙑𝙀] - - ₹799.00 per 10,000" },
+        { id: "5107", name: "[5107] - 💥 Instagram Followers [MIXED] FLAG OFF ONLY - NO REFILL 🎉 - ₹699.00 per 10,000" },
+        { id: "5108", name: "[5108] - 💥 𝐍𝐄𝐖 Instagram Followers | 𝐀𝐋𝐋 𝐀𝐂𝐂𝐎𝐔𝐍𝐓𝐒 | 𝐍𝐎𝐍 𝐃𝐑𝐎𝐏 || 𝐎𝐋𝐃 𝐀𝐂𝐎𝐔𝐍𝐓𝐒| 𝐒𝐔𝐏𝐄𝐑 𝐅𝐀𝐒𝐓 | 𝐈𝐍𝐒𝐓𝐀𝐍𝐓 🚀 - 365 DAYS REFILL🔥🔥♻️ - ₹1999.63 per 10,000" },
 
     ],
     byoutubeServices: [
@@ -217,6 +224,7 @@ function updateDetails() {
 
     // Use the selected service ID in the switch case
     switch (selectedServiceId) {
+        // instagram services
         case "5001":
             details = `<p>Start: 0-1H</p><p>Speed: 1M / H</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 25 Mins</p><br><p>CHEAPEST SERVICE</p><p>GOOD SPEED</p> `; break;
         case "5002":
@@ -261,6 +269,24 @@ function updateDetails() {
             details = `<p>Start: 0-1H</p><p>Speed: 1M/D</p><p>Quality: REAL HQ</p><p>Refill: NON DROP</p><p>Average: 26 Mins</p><br><p>Description: 📈 POST SHARES</p><p>You dont get full shares , 80% you will receive !</p><p>After completion of ORDER IT TAKES 5-6 HOURS TO GET UPDATED!!</p>`; break;
         case "5022":
             details = `<p>Start Time: Instant -1H</p><p>Speed: 100K/ day</p><p>Refill: no</p><p>70% - 80% views</p><p>🔥Super fast</p>`; break;
+        // bulk instagram services
+        case "5101":
+            details = `<p>Start: 0-1H</p><p>Speed: 500K-1M/D</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 20 Mins</p><p> FAST IG REELS & VIEWS</p>`; break;
+        case "5102":
+            details = `<p>Start: 0-1H</p><p>Speed: 500K-1M/D</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 20 Mins</p><p> FAST IG REELS & VIEWS</p>`; break;
+        case "5103":
+            details = `<p>Start: 0-1H</p><p>Speed: 500K-1M/D</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 20 Mins</p><p> FAST IG REELS & VIEWS</p>`; break;
+        case "5104":
+            details = `<p>Quality: mix</p><p>Start: 0-1H</p><p>Speed:50K/D</p><p>Refill: NOT</p><p>Average: 12 Mins</p><br><p>🔥NEW CHEAPEST ON MARKET</p><p>🔥 MIX PROFILES</p><p>🔥NO GUARANTEEE</p> `; break;
+        case "5105":
+            details = `<p>Quality: REAL LOOKING</p><p>Start: INSTANT</p><p>Speed: 100K-500K/D</p><p>Refill: NON DROP</p><p>Average: 15 Mins</p><br><p>➔ 𝐀𝐁𝐎𝐔𝐓 𝐒𝐄𝐑𝐕𝐈𝐂𝐄:</p><p>🔥CHEAPEST NON DROP ACCOUNTS</p><p>🔥 STARTS : INSTANT</p><p>🔥 SPEED : 500K-1M/D (DEPENDS ON SERVER LOAD)</p><p>🔥MAX BASE 1M LIKES , CAN PLACE MULTIPLE ORDERS AFTER COMPLETION</p><p>🔥 100% NON DROP</p></p>`; break;
+        case "5106":
+            details = `<p>Start: 0-1H</p><p>Speed:10K-50K/D</p><p>Quality: INDIANS MIX</p><p>Refill: NON DROP</p><p>Average: 45 Mins</p><br><p>🔥INDIAN ONLY</p><p>🔥REAL INDIANS WITH STORIES</p><p>🔥 MOST ACCOUNTS HAVE HIGHLIGHTS TOO</p><p>🔥 REAL INDIANS MIX (90% - 99% INDIANS WILL COME)</p><p>🔥 START : 1H</p><p>🔥 SPEED : 1M/D</p><p>🔥 NON DROP</p>`; break;
+        case "5107":
+            details = `<p>Quality: MIX</p><p>Start: 0-1H</p><p>Speed: 50K/D</p><p>Refill: NOT</p><p>Average: 20 Mins</p><br><p>⚠️MAKE SURE YOUR FLAG IS OFF - BEFORE PLACING ORDER OR ELSE NO REFUND IF FLAG IS ON⚠️</p><p>📝 NO GUARANTEE / NO REFILL</p>`; break;
+        case "5108":
+            details = `<p>Start: 0-1H</p><p>Speed: 10K - 20K/D</p><p>Refill: 365 Days</p><p>Average: 105 Mins</p><br><p>🔥SMMSM OLD ACCOUNT MIX FOLLOWERS !!</p><br><p>🔥𝐀𝐁𝐎𝐔𝐓 𝐒𝐄𝐑𝐕𝐈𝐂𝐄 :</p><p>Speed: 10K-20K/D</p><p>- REFILL : 365 DAYS</p><p>- DROP : NON DROP ( NON DROP ONLY ON NEW PROFILES FROM 0 . IF YOU HAVE OLD FOLLOWERS WHICH TAKEN FROM OTHER SERVICES , THEN IT CAN DROP .)</p><p>-NOTE : REFILL WILL BE DONE ONLY IF THIS SERVICE FOLLOWERS DROP , WE DONT REFILL FOR OTHER SERVICE FOLLOWERS</p><p>🔥𝐒𝐄𝐑𝐕𝐈𝐂𝐄 𝐐𝐔𝐀𝐋𝐈𝐓𝐘 :</p><p>- OLD ACCOUNTS</p><p>- GLOBAL MIX QUALITY</p><p>- 365 DAYS GUARANTEE ONLY</p><br><p>🔥𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓 :</p><p>- If your Account Username is Changed ,you wont get any REFILL for your guarantee period</p><p>-Dont change to PRIVATE ACCOUNT , then you wont get AUTO-REFILL if there is DROP.</p>`; break;
+
         default:
             details = "<p>Please select a service to see the details.</p>";
     }
