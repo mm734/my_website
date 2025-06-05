@@ -200,7 +200,15 @@ const services = {
         { id: "7010", name: "[7010] - 🅵 Facebook Live Stream Views [𝟑𝟎 𝐌𝐈𝐍𝐒 ] - (START : 15 MINS) 🔥 - ₹159.96 per 1000" },
     ],
     spotifyServices: [
-
+        { id: "3001", name: "[3001] - Spotify Podcast [PLAYS] - 5K-50K/D - ₹29.554 per 1000" },
+        { id: "3002", name: "[3002] - Spotify Web 2.0 Premium Streams [India] [Max: 50K] [[Daily: 1-5K]] [Lifetime Guaranteed] [UHQ] - ₹499.756 per 1000" },
+        { id: "3003", name: "[3003] - Spotify - Followers ~ 20K/day ~ [𝔅𝗲𝙨𝘁 - 𝐒𝐩𝐞𝐞𝐝] - ₹99.89 per 1000" },
+        { id: "3004", name: "[3004] - Spotify - Saves ~ 20K/day ~ [𝔅𝗲𝙨𝘁 - 𝐒𝐩𝐞𝐞𝐝] - ₹99.482 per 1000" },
+        { id: "3005", name: "[3005] - 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 Plays - [𝐋𝐢𝐟𝐞𝐓𝐢𝐦𝐞] | Speed 500-1K/day ~ INSTANT - ₹109.73 per 1000" },
+        { id: "3006", name: "[3006] - 🎵 Spotify Plays [𝐈𝐍𝐃𝐈𝐀] | 10K/D - INSTANT - ₹99.73 per 1000" },
+        { id: "3007", name: "[3007] - 🎵 Spotify Followers - 𝟗𝟎 𝐃𝐀𝐘𝐒 𝐑𝐄𝐅𝐈𝐋𝐋🔥🔥 - ₹87.61 per 1000" },
+        { id: "3008", name: "[3008] - 🎵 Spotify Saves - FAST | NON DROP - ₹107.066 per 1000" },
+        { id: "3009", name: "[3009] - 🎵 Spotify Listeners [MONTHLY] - FAST - ₹299.242 per 1000" },
     ],
     binstagramServices: [
         { id: "5101", name: "[5101] - 🎦🎥Instagram VIEWS | 𝐒𝐩𝐞𝐞𝐝 : 10M/𝐃 | INSTANT🔥🔥 - ₹99.00 per 100K " },
@@ -355,29 +363,47 @@ function updateDetails() {
             details = `<p>Start: 0-1H</p><p>Speed: 5K-20K / DAY</p><p>Refill: 60 Days</p><p>Average: 1 Hour 25 Mins</p><br><p>🔥 FAST</p><p>🔥 REFILL VALID ONLY FOR 60 DAYS</p><p>🔥 No refill for old drops or changed/deleted channel</p>`; break;
         case "4007":
             details = `<p>Start: 0-2H</p><p>Speed: 100-1K / DAY</p><p>Quality: REAL</p><p>Refill: NOT</p><br><p>🔥 100% INDIAN USERS</p><p>🔥 SLOWEST DELIVERY</p><p>🔥 NO GUARANTEE</p><p>⭐ No cancellation if channel link is changed or deleted</p>`; break;
-
+        // facebook services
         case "7001":
-            details = `<p>Start: 0-1H</p><p>Speed: 5K / Day</p><p>Quality: REAL + HIGH QUALITY INDIANS</p><p>Refill: 30 Days</p><p>Average: 10 Mins</p><p>GLOBAL HIGH QUALITY POST LIKES FAST</p><p>Mostly No Drop</p><p>If Drop - 30 Days Refill</p>`; break;
+            details = `<p>Start: 0-1H</p><p>Speed: 5K / Day</p><p>Quality: REAL + HIGH QUALITY INDIANS</p><p>Refill: 30 Days</p><p>Average: 10 Mins</p><br><p>GLOBAL HIGH QUALITY POST LIKES FAST</p><p>Mostly No Drop</p><p>If Drop - 30 Days Refill</p>`; break;
         case "7002":
-            details = `<p>Start: 0-1H</p><p>Speed: 5K-50K/Day</p><p>Quality: REAL</p><p>Refill: NOT</p><p>Average: 4 Hours 35 Mins</p><p>🔥 SPEED CAN VARY DUE TO SERVER LOAD</p><p>🔥 FOR MONETIZATION</p><p>🔥 INCREASES ONLY VIDEO PLAYS</p>`; break;
+            details = `<p>Start: 0-1H</p><p>Speed: 5K-50K/Day</p><p>Quality: REAL</p><p>Refill: NOT</p><p>Average: 4 Hours 35 Mins</p><br><p>🔥 SPEED CAN VARY DUE TO SERVER LOAD</p><p>🔥 FOR MONETIZATION</p><p>🔥 INCREASES ONLY VIDEO PLAYS</p>`; break;
         case "7003":
-            details = `<p>No Refill</p><p>Speed: 100-5K / Day</p><p>🔥 Speed Can Vary Anytime</p><p>🔥 No Guarantee Service</p>`; break;
+            details = `<p>No Refill</p><p>Speed: 100-5K / Day</p><br><p>🔥 Speed Can Vary Anytime</p><p>🔥 No Guarantee Service</p>`; break;
         case "7004":
-            details = `<p>Start: 0-1H</p><p>Speed: 1K-2K / Day</p><p>Quality: REAL</p><p>Refill: 30 Days</p><p>Average: 5 Mins</p><p>🔥 Works on All Pages</p><p>🔥 SUPER FAST</p><p>🔥 GLOBAL QUALITY</p><p>🔥 GUARANTEE 30 DAYS (after that can drop up to 30%)</p>`; break;
+            details = `<p>Start: 0-1H</p><p>Speed: 1K-2K / Day</p><p>Quality: REAL</p><p>Refill: 30 Days</p><p>Average: 5 Mins</p><br><p>🔥 Works on All Pages</p><p>🔥 SUPER FAST</p><p>🔥 GLOBAL QUALITY</p><p>🔥 GUARANTEE 30 DAYS (after that can drop up to 30%)</p>`; break;
         case "7005":
-            details = `<p>Start: 0-3H</p><p>Speed: 120K / Day</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>🔥 NORMAL SPEED</p><p>🔥 Lifetime Guarantee</p><p>🔥 Delays possible during overload</p>`; break;
+            details = `<p>Start: 0-3H</p><p>Speed: 120K / Day</p><p>Quality: REAL</p><p>Refill: NON DROP</p><br><p>🔥 NORMAL SPEED</p><p>🔥 Lifetime Guarantee</p><p>🔥 Delays possible during overload</p>`; break;
         case "7006":
-            details = `<p>Start: 0-1H</p><p>Speed: 50K-500K / Day</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 25 Mins</p><p>🔥 Shares Update in 4-6 Hours Post Completion</p><p>🔥 FAST & CHEAP</p><p>🔥 NO REFILL IF DROP</p>`; break;
+            details = `<p>Start: 0-1H</p><p>Speed: 50K-500K / Day</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 25 Mins</p><br><p>🔥 Shares Update in 4-6 Hours Post Completion</p><p>🔥 FAST & CHEAP</p><p>🔥 NO REFILL IF DROP</p>`; break;
         case "7007":
-            details = `<p>Start: 0-6H</p><p>Speed: 1K-3K / Day</p><p>Refill: 30 Days</p><p>🔥 INDIAN MIX (Includes BD & Others)</p><p>🔥 QUALITY MAY VARY ON UPDATE</p><p>🔥 NOT PURE INDIAN</p>`; break;
+            details = `<p>Start: 0-6H</p><p>Speed: 1K-3K / Day</p><p>Refill: 30 Days</p><br><p>🔥 INDIAN MIX (Includes BD & Others)</p><p>🔥 QUALITY MAY VARY ON UPDATE</p><p>🔥 NOT PURE INDIAN</p>`; break;
         case "7008":
-            details = `<p>Start: 0-24H</p><p>Speed: 50K-500K / Day</p><p>Stable</p><p>🔥 Monetizable</p><p>🔥 Min: 500, Max: 10M</p>`; break;
+            details = `<p>Start: 0-24H</p><p>Speed: 50K-500K / Day</p><p>Stable</p><br><p>🔥 Monetizable</p><p>🔥 Min: 500, Max: 10M</p>`; break;
         case "7009":
-            details = `<p>Start: 0-24H</p><p>Speed: 50K-500K / Day</p><p>Stable</p><p>🔥 Monetizable</p><p>🔥 Min: 500, Max: 10M</p>`; break;
+            details = `<p>Start: 0-24H</p><p>Speed: 50K-500K / Day</p><p>Stable</p><br><p>🔥 Monetizable</p><p>🔥 Min: 500, Max: 10M</p>`; break;
         case "7010":
-            details = `<p>Start: 15-20 Mins</p><p>🔥 Can Drop After Live</p><p>🔥 Unstable</p><p>🔥 Views Increase by 60% - 120% of Ordered</p>`; break;
-
-            default:
+            details = `<p>Start: 15-20 Mins</p><br><p>🔥 Can Drop After Live</p><p>🔥 Unstable</p><p>🔥 Views Increase by 60% - 120% of Ordered</p>`; break;
+        // spotify service
+        case "3001":
+            details = `<p>Start: INSTANT</p><p>Speed: 5K-50K/Day</p><p>Refill: 30 Days</p>`; break;
+        case "3002":
+            details = `<p>Start: 1-12 Hours</p><p>Refill: Lifetime</p><p>Traffic: Spotify algorithmic playlists</p><p>Speed: 1K-5K/Day</p><p>Min/Max: 1,000 / 50,000</p><p>🎯 Algorithmic Playlist Activation</p><p>🧲 Own Service (Provider Level)</p><p>☘️ Royalties Eligible</p><p>🔴 Use Any Link Format (track, artist, playlist, album)</p><p>🔴 Refill requires Spotify for Artists screenshot</p><p>🔴 Stats update every 36-72 hours</p>`; break;
+        case "3003":
+            details = `<p>Speed: ~20K/Day</p><p>🔥 Best Speed</p>`; break;
+        case "3004":
+            details = `<p>Speed: ~20K/Day</p><p>🔥 Best Speed</p>`; break;
+        case "3005":
+            details = `<p>Start: INSTANT</p><p>Speed: 500-1K/Day</p><p>🔥 Lifetime Valid</p><p>🔥 Premium Quality</p>`; break;
+        case "3006":
+            details = `<p>Start: INSTANT</p><p>Speed: 10K/Day</p><p>🔥 Targeted INDIA Listeners</p>`; break;
+        case "3007":
+            details = `<p>🔥 Refill: 90 Days</p><p>🔥 HQ Followers</p>`; break;
+        case "3008":
+            details = `<p>🔥 Fast Delivery</p><p>🔥 NON DROP</p>`; break;
+        case "3009":
+            details = `<p>Start: 1-12H</p><p>Speed: 500-3K/Day</p><p>Refill: No Refill</p><p>Quality: HQ</p>`; break;
+        default:
             details = "<p>Please select a service to see the details.</p>";
     }
     detailBox.innerHTML = details;
