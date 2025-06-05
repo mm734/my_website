@@ -176,13 +176,28 @@ const services = {
         { id: "6010", name: "[6010] - 𝐍𝐄𝐖 ▶️Youtube Subscribers [𝟭𝟬𝟬% 𝗡𝗢𝗡 𝗗𝗥𝗢𝗣] [SEARCH CHANNEL + SUBSCRIBER] - CHANNEL HIGHGROWTH🔥🔥🔥🔥🔥🔥 - ₹799.01 per 1000" },
     ],
     telegramServices: [
-
+        { id: "4001", name: "[4001] - 🆃 Telegram Post Views [ ANY POST VIEWS] - NORMAL SPEED - CHEAPEST - ₹9 per 1000" },
+        { id: "4002", name: "[4002] - 🆃 Telegram Post Views [ Last 50 post ] - CHEAPEST ON WHOLE MARKET 🔥 - ₹49.353 per 1000" },
+        { id: "4003", name: "[4003] - 🆃 Telegram Public Channel Members [REAL] [REFILL 30 DAYS] - CHEAPEST IN MARKET🔥🔥🔥🔥 - ₹149.76 per 1000" },
+        { id: "4004", name: "[4004] - 🆃 Telegram Mix Positive Reactions[👍❤️🔥🎉😁] + Free Views - FAST !! - ₹25.36 per 1000" },
+        { id: "4005", name: "[4005] - 🆃 Telegram MIX MEMBERS !! - NO REFILL - ALL DROP LATER = CHEAPEST🔥 - ₹29.01 per 1000" },
+        { id: "4006", name: "[4006] - 🆃 Telegram Members [𝐍𝐎𝐍 𝐃𝐑𝐎𝐏] [𝐒𝐏𝐄𝐄𝐃 : 𝟓𝐊-𝟐𝟎𝐊/𝐃] - 𝟔𝟎 𝐃𝐀𝐘𝐒 𝐎𝐍𝐋𝐘🔥 - ₹189.51 per 1000" },
+        { id: "4007", name: "[4007] - 🆃 🇮🇳 Telegram Public Channel / Group Members [𝑰𝑵𝑫𝑰𝑨] - SLOWEST CHEAP ON MARKET - ₹199.78 per 1000" },
     ],
     tiktokServices: [
 
     ],
     facebookServices: [
-
+        { id: "7001", name: "[7001] - 🅵 Facebook Post [Likes] [EMOJI] [ 𝐋𝐨𝐯𝐞 ] ❤️ - HIGH QUALITY FAST - ₹199.56 per 1000" },
+        { id: "7002", name: "[7002] - 🅵 Facebook Views / Plays [Reel] - NEW 🔥🔥 - ₹29.23 per 1000" },
+        { id: "7003", name: "[7003] - 🅵 Facebook Post [Likes] - No Refill🔥 - ₹79.79 per 1000" },
+        { id: "7004", name: "[7004] - 🅵 Facebook Page [LIKES + FOLLOWS] - [ALL PAGES] |5K-10K/D - 30 DAYS REFILL🔥 - ₹249.23 per 1000" },
+        { id: "7005", name: "[7005] - 🅵 Facebook Views [𝐕𝐈𝐃𝐄𝐎/𝐑𝐄𝐄𝐋𝐒] 50K-100K/D - CHEAPEST🔥🔥 - ₹9.6 per 1000" },
+        { id: "7006", name: "[7006] - 🅵 Facebook Share [𝐕𝐈𝐃𝐄𝐎 / 𝐏𝐎𝐒𝐓 / 𝐏𝐇𝐎𝐓𝐎] | 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 - MIN 100 - ₹29.69 per 1000" },
+        { id: "7007", name: "[7007] - 🅵 Facebook Page [𝐋𝐈𝐊𝐄𝐒 + 𝐅𝐎𝐋𝐋𝐎𝐖𝐒] [𝐈𝐍𝐃𝐈𝐀𝐍 𝐌𝐈𝐗] [𝐒𝐏𝐄𝐄𝐃 : 𝟐𝐊-𝟓𝐊/𝐃] - 30 DAYS 🔥🔥🔥 - ₹199.276 per 1000" },
+        { id: "7008", name: "[7008] - 🅵 Facebook Views | 𝟏𝟎 𝐒𝐄𝐂𝐎𝐍𝐃𝐒 𝐑𝐄𝐓𝐄𝐍𝐓𝐈𝐎𝐍 | 𝐌𝐎𝐍𝐄𝐓𝐈𝐙𝐀𝐁𝐋𝐄 | 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟓𝟎𝟎𝐊/𝐃 - SLOW🔥 - ₹120.64 per 1000" },
+        { id: "7009", name: "[7009] - Facebook Views | 𝟏 𝐌𝐈𝐍 𝐑𝐄𝐓𝐄𝐍𝐓𝐈𝐎𝐍 | 𝐌𝐎𝐍𝐄𝐓𝐈𝐙𝐀𝐁𝐋𝐄 | 𝐒𝐏𝐄𝐄𝐃 : 𝟓𝟎𝐊-𝟓𝟎𝟎𝐊/𝐃 - SLOW🔥 - ₹169.63 per 1000" },
+        { id: "7010", name: "[7010] - 🅵 Facebook Live Stream Views [𝟑𝟎 𝐌𝐈𝐍𝐒 ] - (START : 15 MINS) 🔥 - ₹159.96 per 1000" },
     ],
     spotifyServices: [
 
@@ -199,7 +214,7 @@ const services = {
 
     ],
     byoutubeServices: [
-        { id: "6101", name: "[6101] - ▶️ Youtube Subscribers [𝟭𝟬𝟬% 𝗡𝗢𝗡 𝗗𝗥𝗢𝗣] [SUPER FAST] - [10,000 SUBSCRIBERS PACKAGE] ⭐⭐🔥🔥🔥 🔥 - ₹2499.00 per 10,000" },
+        { id: "6101", name: "[6101] - ▶️ Youtube Subscribers [𝟭𝟬𝟬% 𝗡𝗢𝗡 𝗗𝗥𝗢𝗣] [SUPER FAST] - [10,000 SUBSCRIBERS PACKAGE] ⭐⭐🔥🔥🔥 🔥 - ₹2499.00 per 10000" },
         { id: "6102", name: "[6102] - ▶️ Youtube Views [50K PACKAGE ] [NON DROP] - Super Fast 🔥🔥 - ₹119.76 per 1000" },
         { id: "6103", name: "[6103] - ▶️ 👍Youtube Likes [HQ] [NON DROP] [100K-200K/D ][10K PACKAGE ]- INSTANT - 365 DAYS REFILL🔥🔥 - ₹139.83 per 1000" },
     ],
@@ -255,7 +270,7 @@ function updateDetails() {
         case "5009":
             details = `<p>Quality: MIX</p><p>Start: 0-1H</p><p>Speed: 50K/D</p><p>Refill: NOT</p><p>Average: 20 Mins</p><br><p>⚠️MAKE SURE YOUR FLAG IS OFF - BEFORE PLACING ORDER OR ELSE NO REFUND IF FLAG IS ON⚠️</p><p>📝 NO GUARANTEE / NO REFILL</p>`; break;
         case "5010":
-            details = `<p>Start: 0-1H</p><p>Speed: 50K-100K / Day</p><p>Quality: MIX</p><p>Refill: 30 Days</p><p>Average: 25 Mins</p><br><p>📢📌 𝐓𝐔𝐑𝐍 𝐎𝐅𝐅 𝐅𝐋𝐀𝐆 𝐑𝐄𝐕𝐈𝐄𝐖 𝐓𝐎 𝐆𝐄𝐓 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 𝐒𝐏𝐄𝐄𝐃</p><p>📌𝐓𝐔𝐑𝐍 𝐎𝐍 𝐅𝐋𝐀𝐆 𝐑𝐄𝐕𝐈𝐄𝐖 𝐓𝐎 𝐆𝐄𝐓 𝟏𝟎𝟎-𝟓𝟎𝟎/𝐃 𝐒𝐏𝐄𝐄𝐃</p><br><p>Disable 'Mark for Review' before ordering Followers</p><p>STEPS</p><p>📌 1. Go to 'Settings and Actions'</p><p>📌 2. Select 'Invite and follow friends'❗❗❗❗</p> <p>📌 3. Disable Mark for Review❗❗❗❗<br><p>🔥INDIAN MIX QUALITY FOLLOWERS🔥</p><p>🔥 ACCOUNTS WILL HAVE POSTS + GOOD PROFILES ALSO</p><p>🔥 HIGH SPEED</p><p>🔥 IF YOUR ORDER IS SLOW - KINDLY TURN OFF YOUR FLAG FOR REVIEW</p><br><p>📌 𝐑𝐄𝐅𝐈𝐋𝐋 & 𝐃𝐑𝐎𝐏 :</p><p>🔆𝗗𝗿𝗼𝗽 𝗥𝗮𝘁𝗶𝗼 : 0-15% (On New Profiles Only , If you have high amount of Followers , We dont gurantee this percent , your old followers can drop )</p><p>🔆 𝗥𝗲𝗳𝗶𝗹𝗹 : 30 Days Refill only !!</p><p>🆘NOTE - : If you old followers dropping too much , we dont refill strictly !</p>`; break;
+            details = `<p>Start: 0-1H</p><p>Speed: 50K-100K / Day</p><p>Quality: MIX</p><p>Refill: 30 Days</p><p>Average: 25 Mins</p><br><p>📢📌 𝐓𝐔𝐑𝐍 𝐎𝐅𝐅 𝐅𝐋𝐀𝐆 𝐑𝐄𝐕𝐈𝐄𝐖 𝐓𝐎 𝐆𝐄𝐓 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 𝐒𝐏𝐄𝐄𝐃</p><p>📌𝐓𝐔𝐑𝐍 𝐎𝐍 𝐅𝐋𝐀𝐆 𝐑𝐄𝐕𝐈𝐄𝐖 𝐓𝐎 𝐆𝐄𝐓 𝟏𝟎𝟎-𝟓𝟎𝟎/𝐃 𝐒𝐏𝐄𝐄𝐃</p><br><p>Disable 'Mark for Review' before ordering Followers</p><p>STEPS</p><p>📌 1. Go to 'Settings and Actions'</p><p>📌 2. Select 'Invite and follow friends'❗❗❗❗</p><p>📌 3. Disable Mark for Review❗❗❗❗<br><p>🔥INDIAN MIX QUALITY FOLLOWERS🔥</p><p>🔥 ACCOUNTS WILL HAVE POSTS + GOOD PROFILES ALSO</p><p>🔥 HIGH SPEED</p><p>🔥 IF YOUR ORDER IS SLOW - KINDLY TURN OFF YOUR FLAG FOR REVIEW</p><br><p>📌 𝐑𝐄𝐅𝐈𝐋𝐋 & 𝐃𝐑𝐎𝐏 :</p><p>🔆𝗗𝗿𝗼𝗽 𝗥𝗮𝘁𝗶𝗼 : 0-15% (On New Profiles Only , If you have high amount of Followers , We dont gurantee this percent , your old followers can drop )</p><p>🔆 𝗥𝗲𝗳𝗶𝗹𝗹 : 30 Days Refill only !!</p><p>🆘NOTE - : If you old followers dropping too much , we dont refill strictly !</p>`; break;
         case "5011":
             details = `<p>Start: 0-1H</p><p>Speed: 50K-100K / Day</p><p>Quality: MIX</p><p>Refill: 90 Days</p><p>Average: 25 Mins</p><br><p>📢📌 𝐓𝐔𝐑𝐍 𝐎𝐅𝐅 𝐅𝐋𝐀𝐆 𝐑𝐄𝐕𝐈𝐄𝐖 𝐓𝐎 𝐆𝐄𝐓 𝟓𝟎𝐊-𝟏𝟎𝟎𝐊/𝐃 𝐒𝐏𝐄𝐄𝐃</p><p>📌𝐓𝐔𝐑𝐍 𝐎𝐍 𝐅𝐋𝐀𝐆 𝐑𝐄𝐕𝐈𝐄𝐖 𝐓𝐎 𝐆𝐄𝐓 𝟏𝟎𝟎-𝟓𝟎𝟎/𝐃 𝐒𝐏𝐄𝐄𝐃</p><br><p>Disable 'Mark for Review' before ordering Followers</p><p>STEPS</p><p>📌 1. Go to 'Settings and Actions'</p><p>📌 2. Select 'Invite and follow friends'❗❗❗❗</p><p>📌 3. Disable Mark for Review❗❗❗❗<br><p>🔥INDIAN MIX QUALITY FOLLOWERS🔥</p><p>🔥 ACCOUNTS WILL HAVE POSTS + GOOD PROFILES ALSO</p><p>🔥 HIGH SPEED</p><p>🔥 IF YOUR ORDER IS SLOW - KINDLY TURN OFF YOUR FLAG FOR REVIEW</p><br><p>📌 𝐑𝐄𝐅𝐈𝐋𝐋 & 𝐃𝐑𝐎𝐏 :</p><p>🔆𝗗𝗿𝗼𝗽 𝗥𝗮𝘁𝗶𝗼 : 0-15% (On New Profiles Only , If you have high amount of Followers , We dont gurantee this percent , your old followers can drop )</p><p>🔆 𝗥𝗲𝗳𝗶𝗹𝗹 : 90 Days Refill only !!</p><p>🆘NOTE - : If you old followers dropping too much , we dont refill strictly !</p>`; break;
         case "5012":
@@ -325,6 +340,42 @@ function updateDetails() {
             details = `<p>Start: 0-12H (Ads Approval May Delay)</p><p>Speed: SUPER FAST</p><p>Quality: REAL ADS VIEWS + HIGH REVENUE</p><p>Refill: NON DROP</p><p>Average: COMPLETE IN 24-48HRS</p><br><p>%100 Real ADS Views</p><p>🔥Never Drop!</p>`; break;
         case "6103":
             details = `<p>Start: 0-1H</p><p>Speed: 100K-300K/D</p><p>Quality: REAL + HQ USERS</p><p>Refill: NON DROP</p><p>Average: 5 Mins</p><br><p>⭐NON DROP</p><p>⭐BEST FOR BIG TRAILERS</p><p>⭐365 DAYS REFILL GUARANTEE , BUT CURRENTLY NO DROP !!</p>`; break;
+        // telegram services
+        case "4001":
+            details = `<p>Start: 1-2H</p><p>Quality: REAL</p><p>🔥 Cheapest Working Telegram New Post Views for Public Channel</p><p>🔥 100% Delivery Guaranteed</p>`; break;
+        case "4002":
+            details = `<p>Start: 0-1H</p><p>Speed: 15K / DAY</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 20 Mins</p><br><p>🔥 Views will be Added to Last 50 Posts</p><p>🔥 If your channel doesn't have 50 posts, views will be added to available posts only</p>`; break;
+        case "4003":
+            details = `<p>Start: 0-2H</p><p>Speed: 5K / DAY</p><p>Quality: REAL</p><p>Refill: 30 Days</p><p>Average: 1 Hour 33 Mins</p><br><p>⭐ HQ PROFILES</p><p>⭐ Mostly Low Drop</p><p>⭐ No cancellation if channel link is changed or deleted</p>`; break;
+        case "4004":
+            details = `<p>Start: 0-1H</p><p>Speed: 1K / DAY</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 20 Mins</p><br><p>🔥 Reactions will be randomly spread across post</p><p>🔥 Enter last post link only, not channel link</p>`; break;
+        case "4005":
+            details = `<p>Start: 0-3H</p><p>Speed: 1K-5K / DAY</p><p>Quality: REAL</p><p>Refill: NOT</p><br><p>🔥 CHEAP FAST WORKING</p><p>🔥 ALL DROP LATER</p><p>🔥 NO REFILL</p>`; break;
+        case "4006":
+            details = `<p>Start: 0-1H</p><p>Speed: 5K-20K / DAY</p><p>Refill: 60 Days</p><p>Average: 1 Hour 25 Mins</p><br><p>🔥 FAST</p><p>🔥 REFILL VALID ONLY FOR 60 DAYS</p><p>🔥 No refill for old drops or changed/deleted channel</p>`; break;
+        case "4007":
+            details = `<p>Start: 0-2H</p><p>Speed: 100-1K / DAY</p><p>Quality: REAL</p><p>Refill: NOT</p><br><p>🔥 100% INDIAN USERS</p><p>🔥 SLOWEST DELIVERY</p><p>🔥 NO GUARANTEE</p><p>⭐ No cancellation if channel link is changed or deleted</p>`; break;
+
+        case "7001":
+            details = `<p>Start: 0-1H</p><p>Speed: 5K / Day</p><p>Quality: REAL + HIGH QUALITY INDIANS</p><p>Refill: 30 Days</p><p>Average: 10 Mins</p><p>GLOBAL HIGH QUALITY POST LIKES FAST</p><p>Mostly No Drop</p><p>If Drop - 30 Days Refill</p>`; break;
+        case "7002":
+            details = `<p>Start: 0-1H</p><p>Speed: 5K-50K/Day</p><p>Quality: REAL</p><p>Refill: NOT</p><p>Average: 4 Hours 35 Mins</p><p>🔥 SPEED CAN VARY DUE TO SERVER LOAD</p><p>🔥 FOR MONETIZATION</p><p>🔥 INCREASES ONLY VIDEO PLAYS</p>`; break;
+        case "7003":
+            details = `<p>No Refill</p><p>Speed: 100-5K / Day</p><p>🔥 Speed Can Vary Anytime</p><p>🔥 No Guarantee Service</p>`; break;
+        case "7004":
+            details = `<p>Start: 0-1H</p><p>Speed: 1K-2K / Day</p><p>Quality: REAL</p><p>Refill: 30 Days</p><p>Average: 5 Mins</p><p>🔥 Works on All Pages</p><p>🔥 SUPER FAST</p><p>🔥 GLOBAL QUALITY</p><p>🔥 GUARANTEE 30 DAYS (after that can drop up to 30%)</p>`; break;
+        case "7005":
+            details = `<p>Start: 0-3H</p><p>Speed: 120K / Day</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>🔥 NORMAL SPEED</p><p>🔥 Lifetime Guarantee</p><p>🔥 Delays possible during overload</p>`; break;
+        case "7006":
+            details = `<p>Start: 0-1H</p><p>Speed: 50K-500K / Day</p><p>Quality: REAL</p><p>Refill: NON DROP</p><p>Average: 25 Mins</p><p>🔥 Shares Update in 4-6 Hours Post Completion</p><p>🔥 FAST & CHEAP</p><p>🔥 NO REFILL IF DROP</p>`; break;
+        case "7007":
+            details = `<p>Start: 0-6H</p><p>Speed: 1K-3K / Day</p><p>Refill: 30 Days</p><p>🔥 INDIAN MIX (Includes BD & Others)</p><p>🔥 QUALITY MAY VARY ON UPDATE</p><p>🔥 NOT PURE INDIAN</p>`; break;
+        case "7008":
+            details = `<p>Start: 0-24H</p><p>Speed: 50K-500K / Day</p><p>Stable</p><p>🔥 Monetizable</p><p>🔥 Min: 500, Max: 10M</p>`; break;
+        case "7009":
+            details = `<p>Start: 0-24H</p><p>Speed: 50K-500K / Day</p><p>Stable</p><p>🔥 Monetizable</p><p>🔥 Min: 500, Max: 10M</p>`; break;
+        case "7010":
+            details = `<p>Start: 15-20 Mins</p><p>🔥 Can Drop After Live</p><p>🔥 Unstable</p><p>🔥 Views Increase by 60% - 120% of Ordered</p>`; break;
 
             default:
             details = "<p>Please select a service to see the details.</p>";
