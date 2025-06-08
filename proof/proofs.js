@@ -1,12 +1,15 @@
 // Dynamically load proofs — you just update this array with filenames
 const imageList = [
+    "proof11.JPG",
+    "proof12.JPG",
+    "proof13.JPG",
+    "proof7.JPG",
     "proof1.JPG",
     "proof2.JPG",
     "proof3.JPG",
     "proof4.JPG",
     "proof5.JPG",
     "proof6.JPG",
-    "proof7.JPG",
     "proof8.JPG",
     "proof9.JPG",
     "proof10.JPG",
